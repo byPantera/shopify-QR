@@ -1,3 +1,27 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-scopes = "write_products,read_discounts"
+client_id = "e893ee6d977f5394a62cf137ef143456"
+name = "QR-Magic"
+handle = "qr-magic"
+application_url = "https://qr-magic.vercel.app"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2025-04"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_discounts,write_products"
+
+[auth]
+redirect_urls = [ "https://qr-magic.vercel.app/auth/callback" ]
+
+[pos]
+embedded = false
+
+[development]
+# Replace this with your actual development store
+store = "qr-magic.myshopify.com"

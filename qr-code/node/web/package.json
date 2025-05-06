@@ -1,5 +1,6 @@
 {
-  "name": "shopify-app-template-node",
+  "name": "qr-magic-web",
+  "description": "Web component of QR Magic app for Shopify",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

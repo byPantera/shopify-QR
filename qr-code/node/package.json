@@ -1,6 +1,7 @@
 {
-  "name": "qr-code-sample-app",
-  "version": "0.1.0",
+  "name": "qr-magic",
+  "version": "1.0.0",
+  "description": "A Shopify app that creates QR codes for products, allowing customers to scan and go directly to product pages or checkout.",
   "main": "web/index.js",
   "license": "UNLICENSED",
   "scripts": {
@@ -17,7 +18,7 @@
     "react": "17.0.2",
     "sqlite3": "^5.0.8"
   },
-  "author": "Shopify",
+  "author": "ShopAppMagic",
   "devDependencies": {
     "@types/sqlite3": "^3.1.8"
   }
